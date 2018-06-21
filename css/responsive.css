@@ -32,7 +32,7 @@
         height: 50px;
     }
     .header_area .menu_area #nav .nav-link,
-    .header_area.sticky .menu_area #nav .nav-link {
+      {
         padding: 7.5px 15px;
     }
    
@@ -61,6 +61,11 @@
         font-size: 30px;
     }
    
+    .special_description_img > img {
+       padding-left: 100px;
+    }
+
+
     .section-heading > h2 {
         font-size: 38px;
     }
@@ -80,8 +85,6 @@
         line-height: 36px;
         font-size: 14px;
     }
-    
-    
     
     
 }
@@ -112,6 +115,12 @@
         font-size: 48px;
     }
    
+      
+    .welcome-thumb {
+        width: 70%;
+        bottom: -30px;
+        right: 0;
+    }
    
     .logo_area > a > h2 {
         font-size: 40px;
@@ -128,6 +137,11 @@
         font-size: 30px;
     }
    
+    .special_description_img > img {
+        margin-left: 15px;
+
+    }
+
     .wellcome-heading > h3 {
         font-size: 252px;
         top: -105px;
@@ -137,10 +151,7 @@
     .single-cool-fact {
         margin-bottom: 50px;
     }
-    .cool_facts_area .col-12:last-of-type .single-cool-fact {
-        margin-bottom: 0;
-    }
-}
+   
 
 @media (min-width: 480px) and (max-width: 767px) {
     .wellcome-heading > h3 {
@@ -149,10 +160,10 @@
     .wellcome-heading > h2 {
         font-size: 70px;
     }
-    .welcome-thumb {
+    /* .welcome-thumb {
         bottom: -109px;
         width: 75%;
-    }
+    } */
     .wellcome-heading {
         margin-bottom: 50px;
     }

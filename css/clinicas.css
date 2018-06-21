@@ -177,4 +177,12 @@ p {
   background-size: cover;
 }
 
+ /*input*/
 
+ .healthcare {
+
+  position: relative;
+  background-image: url(../img/bg-img/welcome-bg.png);
+  height: 700px;
+   
+ }
