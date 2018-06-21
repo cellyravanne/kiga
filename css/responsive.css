@@ -1,25 +1,69 @@
-@media (min-width: 992px) and (max-width: 1199px) {
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header_area {
+        padding: 0;
+    }
     .menu_area .navbar-brand {
-        font-size: 42px;
+        font-size: 48px;
     }
-    .menu_area #nav .nav-link {
-        padding: 35px 7.5px;
+    .header_area.sticky {
+        height: 50px;
     }
-    .sing-up-button > a {
-        color: #fff;
-        height: 40px;
-        min-width: 152px;
-        line-height: 36px;
-        font-size: 14px;
+    
+    #ca-navbar {
+        padding: 20px;
+        border-radius: 3px;
+        background-color: #5b32b4;
+        text-align: left;
     }
-    .welcome-thumb {
-        width: 50%;
-        bottom: -100px;
-        right: 50px;
+
+    .header_area {
+        top: 0;
     }
    
+    .wellcome-heading > h2 {
+        font-size: 48px;
+    }
+   
+      
+    .welcome-thumb {
+        width: 70%;
+        bottom: -30px;
+        right: 0;
+    }
+   
+    .logo_area > a > h2 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .section-heading > h2 {
+        font-size: 32px;
+    }
+    .single-special {
+        margin-bottom: 30px;
+    }
     
+    .special_description_content > h2 {
+        font-size: 30px;
+    }
+   
+    .special_description_img > img {
+        margin-left: 15px;
+
+    }
+
+    .wellcome-heading > h3 {
+        font-size: 252px;
+        top: -105px;
+        left: -1px;
+    }
+    .wellcome-heading,
+    .single-cool-fact {
+        margin-bottom: 50px;
+    }
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
     .header_area {
@@ -89,68 +133,29 @@
     
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-    .header_area {
-        padding: 0;
-    }
+@media (min-width: 992px) and (max-width: 1199px) {
     .menu_area .navbar-brand {
-        font-size: 48px;
+        font-size: 42px;
     }
-    .header_area.sticky {
-        height: 50px;
+    .menu_area #nav .nav-link {
+        padding: 35px 7.5px;
     }
-    
-    #ca-navbar {
-        padding: 20px;
-        border-radius: 3px;
-        background-color: #5b32b4;
-        text-align: left;
+    .sing-up-button > a {
+        color: #fff;
+        height: 40px;
+        min-width: 152px;
+        line-height: 36px;
+        font-size: 14px;
     }
-
-    .header_area {
-        top: 0;
-    }
-   
-    .wellcome-heading > h2 {
-        font-size: 48px;
-    }
-   
-      
     .welcome-thumb {
-        width: 70%;
-        bottom: -30px;
-        right: 0;
+        width: 50%;
+        bottom: -100px;
+        right: 50px;
     }
    
-    .logo_area > a > h2 {
-        font-size: 40px;
-        margin-top: 10px;
-    }
-    .section-heading > h2 {
-        font-size: 32px;
-    }
-    .single-special {
-        margin-bottom: 30px;
-    }
     
-    .special_description_content > h2 {
-        font-size: 30px;
-    }
-   
-    .special_description_img > img {
-        margin-left: 15px;
+}
 
-    }
-
-    .wellcome-heading > h3 {
-        font-size: 252px;
-        top: -105px;
-        left: -1px;
-    }
-    .wellcome-heading,
-    .single-cool-fact {
-        margin-bottom: 50px;
-    }
    
 
 @media (min-width: 480px) and (max-width: 767px) {
