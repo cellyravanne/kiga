@@ -418,14 +418,15 @@ time kiga
 
 .member-image {
     margin-bottom: 30px;
-    border-radius: 0px 30px 30px 0;
+    /* border-radius: 60px 60px 60px 0; */
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
  /* efeito do contorno */
 .member-image img {
-    border-radius: 30px 30px 30px 0;
+    border-radius: 210px 210px 210px 210px;
+    height: 450px;
     
 }
 
@@ -443,10 +444,10 @@ time kiga
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 83.5%;
     height: 100%;
     background-color: rgba(82, 60, 168, 0.8);
-    border-radius: 30px 30px 30px 0;
+    border-radius: 210px 210px 210px 210px;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -webkit-transition: all 500ms;
@@ -457,7 +458,7 @@ time kiga
 /* efeito houver */
 .single-team-member:hover .team-hover-effects {
     opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
 }
 
 /* redes sociais */
@@ -496,24 +497,6 @@ time kiga
     margin-bottom: 50px;
 }
 
-/* --------------------------
-contato
-------------------- */
-
-
-.email-text > p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-
-.email-text > p > span {
-    color: #330066;
-}
-
-.footer-contact-area .line-shape {
-    margin-left: 0;
-}
 
 
 
@@ -536,7 +519,7 @@ contato
     width: 40px;
     line-height: 40px;
     font-weight: 500;
-    border-radius: 10px 10px 10px 0px;
+    border-radius: 30px 30px 30px 0px;
     margin-right: 10px;
 }
 
